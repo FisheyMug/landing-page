@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;    
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-weight: 24px;
+}
+
+.headerLink {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-left: auto;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contentOne {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.wordbox {
+    color: #F9FAF8;
+}
+
+.bigText {
+    font-size: 48px;
+    font-weight: 48px;
+}
+
+.smallText {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.imagetop {
+    height: 150px;
+    width: 250px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.contentTwo {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gold;
+}
+
