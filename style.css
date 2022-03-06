@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-     
+    margin: 0%;     
 }
 
 .headerContainer {
@@ -106,7 +106,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 2px solid red;
+   
 }
 
 .img {
@@ -127,6 +127,15 @@ button {
     display: flex;
     justify-content: space-between;
     gap: 52px;
+  
+}
+
+.contentTwoBox {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
@@ -142,19 +151,26 @@ button {
     padding-bottom: 90px;
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 1000px;
+}
+
+.contentThreeBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    margin-left: 320px;
-    margin-right: 320px;
 }
 
 .author {
     margin-left: auto;
-    margin-right: 320px;
+
     font-weight: bold;
     color: #1F2937;
     font-size: large;
@@ -162,13 +178,20 @@ button {
 
 .contentFour {
     background-color: #3882F6;
-    margin-left: 320px;
-    margin-right: 320px;
     display: flex;
     flex-direction: column;
     border-radius: 8px;
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 1000px;
+}
+
+.contentFourBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 h4 {
@@ -178,7 +201,7 @@ h4 {
 .reverse {
     background-color: #3882F6;
     border: 2px solid #F9FAF8;
-    margin-left: 100px;
+    margin-left: 350px;
 
 }
 
